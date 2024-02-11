@@ -5,6 +5,8 @@ from getpass import getpass
 from AesEverywhere import aes256
 
 
+# Hi this is me 
+
 #  encryptor function that encrypt files using aes256
 def encryptor(filename, salt):
 	if os.path.isfile(filename):
